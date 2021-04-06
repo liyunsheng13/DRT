@@ -29,7 +29,7 @@ python drt.py --batch-size 64 --num-layer 2 --save checkpoint/ --src_path clipar
 
 ### Train DRT
 
-Please download the ImageNet pre-trained [dynamic model](...). Again we use 'Clipart' as an example. For training DRT with other domains, you can use other scripts in the folder DRT/script.
+Please download the ImageNet pre-trained [dynamic model](...). Again we use 'Clipart' as an example. For training DRT with other domains, you can use other scripts in the folder [DRT/script](https://github.com/liyunsheng13/DRT/tree/main/script).
 
 ```
 sh clipart_train.sh /path/to/output /path/to/dataset /path/to/initial_model
