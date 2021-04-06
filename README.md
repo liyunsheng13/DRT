@@ -15,7 +15,7 @@ If you use this code in your research please consider citing
 ### Download Dataset
 
 - [DomainNet](http://ai.bu.edu/M3SDA/)
-- [Label](https://drive.google.com/drive/folders/1gy1C4t8IyptC8dMFI0P3AJOf8MIbkFFe?usp=sharing)
+- [Label](https://drive.google.com/file/d/1TL6_-1vEDYlRBxV6_nYawf6CvKhpb1Ik/view?usp=sharing)
 
 Please merge the dataset and the label into the same folder
 
