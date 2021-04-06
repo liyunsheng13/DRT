@@ -1,0 +1,25 @@
+----------------- Options ---------------
+               batch_size: 64                            
+                     cuda: True                          
+                   epochs: 15                            
+                      eta: 1.0                           
+                 evaluate: True                          
+                    gamma: 0.01                          
+                     lbsm: 0.01                          
+                     lmbd: 0.25                          
+             log_interval: 50                            
+                       lr: 0.001                         
+                     lr_f: 0.01                          
+                 momentum: 0.0                           
+                  no_cuda: False                         
+                num_layer: 2                             
+                 pretrain: None                          
+                     root: /home/yunsheng/dataset/DomainNet/
+                save_path: checkpoint/                   
+                 schedule: [30, 60, 90]                  
+                     seed: 10                            
+                 src_path: clipart_comb.txt              
+                 trg_path: clipart_train.txt             
+                 val_path: clipart_test.txt              
+                   weight: /home/yunsheng/dynamic-efficient-network/DRT/clipart.tar
+----------------- End -------------------

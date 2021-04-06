@@ -1,0 +1,1 @@
+python drt.py --batch-size 64 --epochs 15 --gamma 0.01 --lmbd 4.0 --lr 0.001 --lr_f 0.01 --lbsm 0.1 --momentum 0.9 --num-layer 2 --pretrain $3 --save $1 --src_path quickdraw_comb.txt --trg_path quickdraw_train.txt --val_path quickdraw_test.txt --schedule 5 10 15 --root $2
