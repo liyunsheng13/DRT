@@ -11,6 +11,7 @@ If you use this code in your research please consider citing
 
 - Hardware: PC with Tesla-V100.
 - Software: *CUDA >= 10.0*, *Anaconda3*, *pytorch >= 1.0.0*
+- The file requirements.txt was generated after running tests in AWS SageMaker using a ml.g4dn.xlarge instance with the kernel conda_pytorch_39
 
 ### Download Dataset
 
@@ -20,7 +21,7 @@ If you use this code in your research please consider citing
 Please merge the dataset and the label into the same folder
 
 ### Evaluate DRT
-#### You can evaluate the model automatically by running the script below or just going to the next section
+#### You can evaluate the model automatically by running the script below.
 
 ```
 chmod +x test.sh
