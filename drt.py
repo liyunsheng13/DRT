@@ -92,21 +92,21 @@ print_options(save_path, args)
 
 data_transforms = {
     src_path: transforms.Compose([
-        transforms.Scale(256),
+        transforms.Resize(256),
         transforms.RandomHorizontalFlip(),
         transforms.RandomCrop(224),
         transforms.ToTensor(),
         transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
         ]),  
     trg_path: transforms.Compose([
-        transforms.Scale(256),
+        transforms.Resize(256),
         transforms.RandomHorizontalFlip(),
         transforms.RandomCrop(224),
         transforms.ToTensor(),
         transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
         ]),
     val_path: transforms.Compose([
-        transforms.Scale(256),
+        transforms.Resize(256),
         transforms.CenterCrop(224),
         transforms.ToTensor(),
         transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])

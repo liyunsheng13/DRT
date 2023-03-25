@@ -20,7 +20,14 @@ If you use this code in your research please consider citing
 Please merge the dataset and the label into the same folder
 
 ### Evaluate DRT
+#### You can evaluate the model automatically by running the script below or just going to the next section
 
+```
+chmod +x test.sh
+./test.sh
+```
+
+#### Manual test
 The pre-trained models are provided- [Clipart](https://drive.google.com/file/d/1mh1jpUWQrginSACZvZDmtyYeh-TZUxBS/view?usp=sharing), [Infograph](https://drive.google.com/file/d/16zmGRRnXwsTMgj2-RKhwWdaOLXkozXMl/view?usp=sharing), [Painting](https://drive.google.com/file/d/15YhOjPjuutHrcK-m511OERu_4vIVYArD/view?usp=sharing), [Quickdraw](https://drive.google.com/file/d/1O4JwTDudqT1aj2VfFxgU1ld7bk0Hlcth/view?usp=sharing), [Real](https://drive.google.com/file/d/1ygMj4nJU74qywMbdq2DvQyyZZHngBD-3/view?usp=sharing), [Sketch](https://drive.google.com/file/d/1FVNy6OVkptKCL6rp7SqRlrZ5aYM-77vy/view?usp=sharing). Here we use 'Clipart' as an example. If you want to test other domains, all you need to do is just to replace the name of the dataset.
 
 ```
